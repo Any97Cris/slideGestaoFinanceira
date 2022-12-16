@@ -37,21 +37,22 @@ ul {
 }
 
 .painelHome {
-    margin-top: 10px;
+    margin-top: -10px;
     padding-top: 10px;
     text-align: center;
     background-image: url('/src/Projeto_Web_Grafico/fundo.jpg');
     margin-left: -1px;  
-    height: 600px; 
+    height: 550px; 
 }
 
 .titulo {
     color: white;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .bgColorPorco {
-    margin-top: 85px;
+    margin-top: 105px;
+    width: 800px;
 }
 
 .btnIniciar {
