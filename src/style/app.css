@@ -98,3 +98,12 @@ video {
     margin-top: 10px;
 }
 
+/*Página Sobre*/
+
+.container{
+    background-color: blue;   
+    word-break: normal;
+    margin-top: 50px;
+    margin:auto;
+    width: 50%;
+}
