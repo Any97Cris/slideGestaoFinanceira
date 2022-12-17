@@ -5,21 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicial</title>
+
+    <link rel="preload" href="/src/style/app.css" as="style">
+    <link rel="preload" href="/src/script/script.js" as="script">
+
     <link rel="stylesheet" href="/src/style/app.css">
 </head>
 <body>
-    <!-- <nav class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-        </ul> 
-    </nav> -->
-
-    <div class="painelHome">
+    <div class="painelHome">     
+        <img src="/src/Projeto_Web_Grafico/barra-de-menu.png" alt="Clique para abrir ou fechar o menu" id="btnMenu" class="btnMen">   
         <p class="titulo">Gestão Financeira</p>
         <img class="bgColorPorco" src="/src/Projeto_Web_Grafico/bg-porco-capa.png" alt="bg-porco-capa">
         <a href="inicioVideo.html" class="btnIniciar">
             <img src="/src/Projeto_Web_Grafico/botao-19.png" alt="botão-iniciar">
         </a>
     </div>
+
+    <div id="menu" class="menuEffect">
+        <nav>
+            <div>
+                <button id="btnClose" onclick="closeMenu('menu')">X</button>
+            </div>
+            <ul>
+                <li><a href="#">Página 1</a></li>
+                <li><a href="#">Página 2</a></li>
+                <li><a href="#">Página 3</a></li>
+                <li><a href="#">Página 4</a></li>
+                <li><a href="#">Página 5</a></li>
+                <li><a href="#">Página 6</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="/src/script/script.js"></script>
 </body>
 </html>
