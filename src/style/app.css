@@ -53,8 +53,13 @@ body {
     margin: 2px;
 }
 
+#menu {
+    display: none;
+}
+
 .menuEffect ul {
     list-style: none;
+    display: none;
 }
 
 .menu ul li {
