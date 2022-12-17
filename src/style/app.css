@@ -85,3 +85,16 @@ a:hover {
     color: white;
 }
 
+
+
+/*Página Slide*/
+
+video {
+    margin-top: 60px;
+    width: 700px;
+}
+
+.btnVideo{
+    margin-top: 10px;
+}
+
