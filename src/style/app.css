@@ -6,34 +6,9 @@ body {
     background-color: #FFFFFF;
 }
 
-.menu {
-    background-color: #9ccb8d;
-    height: 50px;
-    padding-top: 15px;
-}
-
-.menu ul li {
-    display: inline;   
-}
-
-li {
-    margin-left: 15px;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-}
-
-a:hover {
-    color: black;
-}
-
-ul {
-    list-style: none;
+.btnMen {
+    float: left;
+    margin: 10px;
 }
 
 .painelHome {
@@ -58,3 +33,41 @@ ul {
 .btnIniciar {
     margin-left: 70px;
 }
+
+.menuEffect {
+    position: fixed;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #9ccb8d;
+}
+
+#btnClose {
+    padding: 8px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.menuEffect ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: block;
+}
+
+.menu ul li a{
+    transition: background 0.3s;
+    display: block;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
