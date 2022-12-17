@@ -1,22 +1,23 @@
 var btnClose = document.getElementById("btnClose");
-var bntStart = document.getElementById("bntStart");
-var menulateral = document.getElementById("menu");
-
-//menulateral.style.display = "none";
+var btnStart = document.getElementById("btnStart");
+var menuLateral = document.getElementById("menu");
 
 
+btnStart.addEventListener("click", function() {
+    opcoesMenu = document.getElementsByTagName("ul");
+    
+    if(menuLateral === "block"){
+        menuLateral.style.display = "none";
+        
+    }else {
+        menuLateral.style.display = "block";
+        
+    }
+});
 
-// bntStart.addEventListener("click", function() {
-//     var menuLateral = document.getElementById("menu");
+btnClose.addEventListener("click", function() {
+    let menuLateral = document.getElementById("menu");
 
-//     if(menuLateral === "block"){
-
-//     }
-// });
-
-// btnClose.addEventListener("click", function() {
-//     let menuLateral = document.getElementById("menu");
-
-//     return menuLateral.style.display = "none";
-// });
+    return menuLateral.style.display = "none";
+});
 
