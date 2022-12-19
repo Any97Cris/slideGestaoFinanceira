@@ -18,6 +18,7 @@ body {
     background-image: url('/src/Projeto_Web_Grafico/fundo.jpg');
     margin-left: -1px;  
     height: 550px; 
+    overflow: hidden;
 }
 
 .titulo {
@@ -89,13 +90,57 @@ a:hover {
 
 /*Página Slide*/
 
-video {
-    margin-top: 60px;
-    width: 700px;
+.btnMen2 {    
+    margin: 10px;
+    z-index: auto;
+    
 }
 
-.btnVideo{
-    margin-top: 10px;
+
+.slider {
+    flex: 1;
+    overflow: hidden;
+}
+
+.sliderWidth {
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+
+.sliderItens {
+    width: 100vw;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
+}
+
+video{
+    width: 975px;
+}
+
+.sliderBtn {
+    /* margin-top: 230px; */
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.btnControl {
+    width: 50px;
+    height: 50px;
+    background-color: #9ccb8d;
+    border-radius: 55%;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: 10px;
+    color: white;
 }
 
 /*Página Sobre*/
